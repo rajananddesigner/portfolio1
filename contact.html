@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>contact</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+          ul {
+             list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #111;
+            border-radius: 5px;
+            }
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  margin-left: 175px;
+}
+
+
+    li a:hover {
+  background-color: black;
+    }
+          body{
+            font: 18px/1.5 "Open Sans", sans-serif;
+            color: whitesmoke;
+            background: url(https://cdn.wallpapersafari.com/5/26/3AGmgy.jpg);
+            background-size: cover;
+          }
+            .box{
+              text-align: center;
+            }
+            
+            h1{
+              text-align: center;
+            }
+            .name input{
+              height: 40px;
+              width: 40%;
+              margin: 10px 0px 10px 0px;
+              background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/asterisk.svg);
+              background-size:contain;
+              background-repeat: no-repeat;
+              background-position-x: 99%;
+              background-size: 20px;
+              background-position-y: 50%;
+              padding-left: 20px;
+              background-color: #202020;
+              color: whitesmoke;
+              border-radius: 5px;
+              }
+            .Surname input{
+              height: 40px;
+              width: 40%;
+              margin: 10px 0px 10px 0px;
+              padding-left: 20px;
+              background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/asterisk.svg);
+             background-size: 0px;
+             background-color: #202020;
+             color: whitesmoke;
+             border-radius: 5px;
+             
+
+              
+            }
+            
+            ::placeholder{
+              color: rgba(252, 252, 252, 0.753);
+            }
+            .pn input{
+              height: 40px;
+              width: 40%;
+              margin: 10px 0px 10px 0px;
+              background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/asterisk.svg);
+              background-size:contain;
+              background-repeat: no-repeat;
+              background-position-x: 99%;
+              background-size: 20px;
+              background-position-y: 50%;
+              padding-left: 20px;
+              background-color: #202020;
+              color: whitesmoke;
+              border-radius: 5px;
+              
+            }.ea input{
+              height: 40px;
+              width: 40%;
+              margin: 10px 0px 10px 0px;
+              padding-left: 20px;
+              background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/asterisk.svg);
+              background-size:contain;
+              background-repeat: no-repeat;
+              background-position-x: 99%;
+              background-size: 20px;
+              background-position-y: 50%;
+              background-color: #202020;
+              color: whitesmoke;
+              border-radius: 5px;
+              
+            }.new select{
+              height: 45px;
+              width: 41.5%;
+              margin: 10px 0px 10px 0px;
+              padding-left: 20px;
+              background-color: #202020;
+              color: whitesmoke;
+              border-radius: 5px;
+              
+              
+            } 
+            .new select option{
+              color: whitesmoke;
+            }
+            
+            .ta textarea{
+              height: 40px;
+              width: 40%;
+              margin: 10px 0px 10px 0px;
+              padding-left: 20px;
+              background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/asterisk.svg);
+              background-size: 0px;
+              color: whitesmoke;
+              background-color: #202020;
+              padding-top: 1%;
+              border-radius: 5px;
+              
+            }
+            .buttons input{
+              height: 30px;
+              width: 200px;
+              margin-top: 10px;
+              border-radius: 5px;
+            }
+            
+          
+        </style>
+    </head>
+    <body>
+      <ul>
+        
+        <li> <a href="index.html"><i class="fa fa-fw fa-home" style="color: red;"></i><b>Home</b></a></li>
+         <li><a href="bio.html" target="_blank"><i class="fa fa-fw fa-user" style="color:aqua;"></i><b>Biodata</b></a></li>
+             
+         <li><a href="contact.html" target="_blank"  ><i class="fa fa-fw fa-phone" style="color:aquamarine;"></i><b>Contact</b></a></li>
+        
+     </ul>
+        <form>
+          <header>
+            <h1>Get in Touch!</h1>
+          </header>
+          <div class="box">
+          <div class="new">
+          <select id="slt">
+            <option selected disabled>**Please choose an option**</option>
+            <option>Email me </option>
+            <option>Get a quote</option>
+            <option>Other</option>
+
+            
+          </select>
+          </div>
+          <div class="name">
+          
+          <input type="text" id="name" placeholder="Name" required="required">
+          </div>
+          <div class="Surname">
+          <input type="text" id="surname" placeholder="Surname">
+          </div>
+          <div class="pn">
+            <input type="text" id="phone" placeholder="Phone Number" required="required"></div>
+          <div class="ea">
+            <input type="text" id="email" placeholder="Email Address" required="required"></div>
+          <div class="ta">
+            <textarea placeholder="Leave your message"></textarea></div>
+          <div class="checkbox">
+            <input type="checkbox" required="required">this messege is being declared by me</div>
+          <div class="buttons">
+          <input type="submit" value="Submit">
+          <input type="reset" value="Reset">
+          </div>
+        </form>
+      </div>
+    </body>
+</html>
